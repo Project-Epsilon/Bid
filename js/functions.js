@@ -841,7 +841,9 @@
 $(window).load(function()
 {		
 	/* Loader */
-	$("#site-loader").delay(2000).fadeOut("slow");
+	$("#site-loader").delay(2000).fadeOut("slow", function () {
+		$(".slider-section .slide-sub-title").show();
+  });
 });
 /* Event - Window Load /- */
 
