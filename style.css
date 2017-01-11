@@ -307,7 +307,7 @@ a { outline: 0 !important; }
 }
 
 .features-section:before {
-	width: 56%;
+	width: 60%;
 	position: absolute;
 	height: 100%;
 	top: 0;
@@ -622,7 +622,7 @@ a { outline: 0 !important; }
 }
 
 .why-choose:before {
-	width: 56%;
+	width: 60%;
 	position: absolute;
 	height: 100%;
 	top: -1px;

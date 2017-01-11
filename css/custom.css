@@ -53,6 +53,21 @@ html, body{
     padding: 3px 4px;
     margin-bottom: 5px;
 }
+.introduction{
+    padding-bottom: 80px;
+}
+.introduction p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #666766;
+    font-weight: 300;
+}
+.img-full{
+    width: 100%;
+}
+.why-choose{
+    margin-bottom: -8px;
+}
 @media (max-width: 991px) {
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #888;
