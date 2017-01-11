@@ -18,6 +18,7 @@ html, body{
 }
 .section-header{
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 .overlay{
     position: absolute;
