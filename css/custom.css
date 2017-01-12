@@ -7,6 +7,9 @@ html, body{
 .header-section{
     background-color: #fff;
 }
+.navbar-default .navbar-nav > .active > a{
+    color: #da4c3e;
+}
 .menu-block .navbar-nav > li > a{
     color: #333;
 }
@@ -68,6 +71,31 @@ html, body{
 }
 .why-choose{
     margin-bottom: -8px;
+}
+.genius-gallery{
+    max-width: 1910px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.our-genius .style1,
+.our-genius .style2,
+.our-genius .style3,
+.our-genius .style4,
+.our-genius .style5,
+.our-genius .style6,
+.our-genius .style7,
+.our-genius .style1 img,
+.our-genius .style2 img,
+.our-genius .style3 img,
+.our-genius .style4 img,
+.our-genius .style5 img,
+.our-genius .style6 img,
+.our-genius .style7 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 @media (max-width: 991px) {
     .navbar-default .navbar-toggle .icon-bar {
