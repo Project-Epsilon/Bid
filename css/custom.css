@@ -75,7 +75,7 @@ html, body{
     margin-bottom: -8px;
 }
 .genius-gallery{
-    max-width: 1910px;
+    max-width: 1880px;
     margin: 0 auto;
     width: 100%;
     position: relative;
@@ -190,21 +190,51 @@ html, body{
     border-radius: 0;
     color: #fff;
 }
+.why-choose  h2,
+.features-section h2{
+    text-transform: none;
+}
+.why-choose  h2 div,
 .features-section h2 div{
     display: inline-block;
     position: relative;
 }
+.why-choose h2 small,
+.features-section h2 small{
+    text-transform: lowercase;
+    font-size: 28px;
+    color: inherit;
+}
+.why-choose h2 div:before,
 .features-section h2 div:before{
-    content: "Choice Dos";
     position: absolute;
     top: -22px;
     font-size: 24px;
     font-weight: 300;
 }
-.features-section h2 small{
-    text-transform: lowercase;
-    font-size: 28px;
-    color: inherit;
+.why-choose h2 div:before{
+    content: "Choice Uno";
+}
+.features-section h2 div:before{
+    content: "Choice Dos";
+}
+.why-choose .description{
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 35px;
+    color: #fff;
+    font-style: normal;
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .why-choose .description{
+        float: right;
+    }
+}
+.why-choose-box{
+    margin-top: 25px;
+}
+.slider-section .slide-title span.inner-circle span{
+    text-shadow: 0 0 5px #333;
 }
 @media (max-width: 991px) {
     .navbar-default .navbar-toggle .icon-bar {
