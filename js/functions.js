@@ -847,6 +847,10 @@ $(window).load(function()
 });
 /* Event - Window Load /- */
 
+	$('.open-modal').click(function(){
+		$($(this).attr('href')).modal();
+	});
+
 })(jQuery);
 
 
