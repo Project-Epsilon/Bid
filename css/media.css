@@ -466,13 +466,17 @@
 		left: -83px;
 	}
 	.line.lightbulb hr {
-		right: -560px;
+		width: 405px;
+		right: -706px;
 	}
 	.line.lightbulb i {
-		right: -224px;
+		right: -357px;
+	}
+	.line.house hr{
+		width: 440px;
 	}
 	.line.house i {
-		right: -344px;
+		right: -358px;
 	}
 	.line.gift i {
 		right: -310px;
