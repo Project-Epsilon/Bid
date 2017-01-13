@@ -123,7 +123,6 @@ html, body{
     border: none;
     min-height: 100%;
     padding: 100px 0;
-    text-align: center;
 }
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
@@ -190,6 +189,22 @@ html, body{
     background-color: #333;
     border-radius: 0;
     color: #fff;
+}
+.features-section h2 div{
+    display: inline-block;
+    position: relative;
+}
+.features-section h2 div:before{
+    content: "Choice Dos";
+    position: absolute;
+    top: -22px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.features-section h2 small{
+    text-transform: lowercase;
+    font-size: 28px;
+    color: inherit;
 }
 @media (max-width: 991px) {
     .navbar-default .navbar-toggle .icon-bar {
