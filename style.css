@@ -342,7 +342,7 @@ a { outline: 0 !important; }
 	text-align: right;
 	display: inline-block;
 	width: 100%;
-	margin-top: 81px;
+	margin-top: 50px;
 	margin-left: 30px;
 	cursor: pointer;
 }
@@ -435,39 +435,39 @@ a { outline: 0 !important; }
 .line.lightbulb hr {
 	top: 0px;
 	left: 0;
-	width: 280px;
-	right: -640px;
+	width: 450px;
+	right: -688px;
 }
 
 .line.lightbulb i {
 	top: 13px;
-	right: -200px;
+	right: -320px;
 }
 
 .line.house {
-	transform: rotate(5deg);
-	-webkit-transform: rotate(5deg);
-	-moz-transform: rotate(5deg);
-	-o-transform: rotate(5deg);
+	transform: rotate(3deg);
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
 }
 
 .line.house hr {
 	top: 15px;
 	left: 0px;
-	width: 400px;
+	width: 474px;
 	right: -675px;
 }
 
 .line.house i {
 	top: 29px;
-	right: -290px;
+	right: -323px;
 }
 
 .line.gift {
-	transform: rotate(-15deg);
-	-webkit-transform: rotate(-15deg);
-	-moz-transform: rotate(-15deg);
-	-o-transform: rotate(-15deg);
+	transform: rotate(-13deg);
+	-webkit-transform: rotate(-13deg);
+	-moz-transform: rotate(-13deg);
+	-o-transform: rotate(-13deg);
 }
 
 .line.gift hr {
@@ -487,10 +487,10 @@ a { outline: 0 !important; }
 }
 
 .line.camera {
-	transform: rotate(-30deg);
-	-webkit-transform: rotate(-30deg);
-	-moz-transform: rotate(-30deg);
-	-o-transform: rotate(-30deg);
+	transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
 }
 
 .line.camera hr {

@@ -190,6 +190,22 @@ html, body{
     border-radius: 0;
     color: #fff;
 }
+.features-section h2 div{
+    display: inline-block;
+    position: relative;
+}
+.features-section h2 div:before{
+    content: "Choice Dos";
+    position: absolute;
+    top: -22px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.features-section h2 small{
+    text-transform: lowercase;
+    font-size: 28px;
+    color: inherit;
+}
 @media (max-width: 991px) {
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #888;
