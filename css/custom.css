@@ -63,8 +63,10 @@ html, body{
 .introduction p{
     font-size: 18px;
     line-height: 25px;
-    color: #666766;
-    font-weight: 300;
+    color: #000;
+    font-weight: 400;
+    text-indent: 2em;
+    text-align: justify;
 }
 .img-full{
     width: 100%;
@@ -96,6 +98,10 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.idea{
+    margin-top: 16px;
+    font-size: 16em;
 }
 @media (max-width: 991px) {
     .navbar-default .navbar-toggle .icon-bar {
