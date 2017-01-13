@@ -236,6 +236,9 @@ html, body{
 .slider-section .slide-title span.inner-circle span{
     text-shadow: 0 0 5px #333;
 }
+.brag-about-section{
+    padding: 30px 0;
+}
 @media (max-width: 991px) {
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #888;
