@@ -824,6 +824,9 @@ a { outline: 0 !important; }
 	-ms-transform: rotate(-5deg);
 	transform: rotate(-5deg);
 }
+.we-perfection{
+	top: 10%;
+}
 
 .clean-code-box,
 .research {
@@ -832,7 +835,7 @@ a { outline: 0 !important; }
 	position: absolute;	
 	left: auto;
 	right: 192px;
-	top: 30%;
+	top: 10%;
 	-webkit-transform: skewX(-10deg);
 	-moz-transform: skewX(-10deg);
 	-o-transform: skewX(-10deg);
