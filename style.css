@@ -1790,28 +1790,29 @@ a { outline: 0 !important; }
 }
 
 .brag-content h1 {
-	font-size: 72px;
 	color: #e74c3c;
 	text-align: right;
 	text-transform: uppercase;
 	font-weight: 900;
 	margin-top: 0;
+	font-size: 44px;
 }	
 
 .brag-content p {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 300;
+	padding-right: 15px;
 }
 
 .brag-about-img{
 	position: relative;
-	top: -60px;
 	right: 30px;
 }
 
 .brag-about-img img {
 	width: 100%;
 	top: 0;
+	padding: 30px;
 }
 
 .brag-content {
