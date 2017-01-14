@@ -834,13 +834,11 @@ a { outline: 0 !important; }
 	width: 34%;
 	position: absolute;
 	left: auto;
-	right: 192px;
+	right: 145px;
 	top: 10%;
-	-webkit-transform: skewX(-10deg);
 	-moz-transform: skewX(-10deg);
 	-o-transform: skewX(-10deg);
 	-ms-transform: skewX(-10deg);
-	transform: skewX(-10deg);
 }
 .clean-code-box.shape-content h3,
 .research.shape-content h3 {
@@ -1512,7 +1510,7 @@ a { outline: 0 !important; }
 
 .statistics-section {
 	background-color: #e74c3c;
-	margin-top: -5px;
+	margin-top: -60px;
 	text-align: center;
 	color: #fff;
 	padding: 82px 0 66px 0;

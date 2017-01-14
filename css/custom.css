@@ -213,10 +213,10 @@ html, body{
     font-weight: 300;
 }
 .why-choose h2 div:before{
-    content: "Choice Uno";
+    content: "Primary Choice";
 }
 .features-section h2 div:before{
-    content: "Choice Dos";
+    content: "Secondary Choice";
 }
 .why-choose .description{
     margin-top: 20px;
