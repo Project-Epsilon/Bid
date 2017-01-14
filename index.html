@@ -170,11 +170,21 @@
 											<div class="col-md-8 col-md-offset-2">
 												<div class="modal-body">
 													<!-- Project Details Go Here -->
-													<h2>Project Name</h2>
+													<h2>mBarter Transaction System</h2>
 													<p>
-														Write some love.
+													Our proposal for the mBarter system uses digital signatures to verify transactions. Specifically,
+													each user is equipped with a public key and a private key. When Alice makes a transfer of funds to Bob,
+													Alice first creates a <i>transaction record</i>, which could be a simple text document containing all information
+													pertinent to the transaction, such as parties involved, amount transfered, UNIX time stamp, etc. Alice then uses
+													her private key to digitally sign the record and sends the encrypted result to Bob. Bob uses Alice's public key to
+													verify the transaction record. Note that there is no way for Bob to alter the record since he does not have
+													access to Alice's private key. When Bob is eventually within reach of the Internet, he can send the (encrypted)
+													transaction record to the mBarter server for final authorization.
+
+													Note that, of course, the mobile app will perform all the above steps in the background and without explicit
+													user involvement.
 													</p>
-													<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+													<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Continue</button>
 												</div>
 											</div>
 										</div>
