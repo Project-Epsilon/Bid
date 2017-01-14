@@ -1610,7 +1610,6 @@ a { outline: 0 !important; }
 .post-date .comments-link a {
 	width: auto;
 }
-
 .post-date .comments-link a:hover {
 	color: #E74C3C;
 	text-decoration: none;
