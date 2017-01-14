@@ -1510,10 +1510,17 @@ a { outline: 0 !important; }
 
 .statistics-section {
 	background-color: #e74c3c;
-	margin-top: -60px;
+	margin-top: -65px;
 	text-align: center;
 	color: #fff;
 	padding: 82px 0 66px 0;
+	position: relative;
+	z-index: 1;
+}
+@media (min-width: 1300px) {
+	.statistics-section {
+		margin-top: -90px;
+	}
 }
 .statistics-section  h1 {
 	font-size: 40px;
